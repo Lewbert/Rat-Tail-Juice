@@ -1,0 +1,14 @@
+{
+	"format_version": "1.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "rtj:wude_alloy",
+			"category": "Items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "wude_alloy"
+			}
+		}
+	}
+}

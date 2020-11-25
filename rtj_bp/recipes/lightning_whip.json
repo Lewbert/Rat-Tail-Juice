@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "rtj:lightning_whip"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "  R",
+      " RS",
+      "R S"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "R": {
+        "item": "rtj:rat_tail"
+      }
+    },
+    "result": {
+      "item": "rtj:lightning_whip"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+item.test:katana.name=Katana
+item.rtj:rat_tail.name=Rat Tail
+item.rtj:rat_tail_juice.name=Rat Tail Juice
+item.rtj:mixed_ingot.name=Mixed Ingot
+item.rtj:wude_alloy.name=Wude Alloy
+item.rtj:taichi_sword.name=Taichi Sword
+item.rtj:lightning_whip.name=Lightning Whip
+item.rtj:wude_helmet=Wude Alloy Helmet
+item.rtj:wude_chestplate=Wude Alloy Chestplate
+item.rtj:wude_leggings=Wude Alloy Leggings
+item.rtj:wude_boots=Wude Alloy Boots
+entity.rtj:rat.name=Rat
+item.spawn_egg.entity.rtj:rat.name=Spawn Rat
+pack.name=test_resource_pack
+pack.description=essential to the correspondent BP

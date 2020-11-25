@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "rtj:taichi_sword.json"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "I",
+      "I",
+      "S"
+    ],
+    "key": {
+      "I": {
+        "item": "rtj:wude_alloy"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "rtj:taichi_sword"
+    }
+  }
+}

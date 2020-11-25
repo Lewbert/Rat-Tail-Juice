@@ -1,0 +1,14 @@
+{
+	"format_version": "1.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "rtj:rat_tail",
+			"category": "Nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "rat_tail"
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:item": {
+	  "description": {
+		"identifier": "rtj:rat_tail_juice",
+		"category": "Equipment"
+	  },
+  
+	  "components": {
+		"minecraft:icon": "rat_tail_juice",
+		"minecraft:use_animation": "drink",
+		"minecraft:render_offsets": "tools"
+	  }
+	}
+  }

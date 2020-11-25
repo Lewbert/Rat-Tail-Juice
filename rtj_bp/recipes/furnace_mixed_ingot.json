@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "rtj:mixed_ingot"
+    },
+
+    
+    "tags": ["furnace"],
+    "input": "rtj:mixed_ingot",
+    "output": "rtj:wude_alloy"
+  }
+  
+}

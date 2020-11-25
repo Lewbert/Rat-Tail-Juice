@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+	  "description": {
+		"identifier": "rtj:taichi_sword",
+		"category": "Equipment"
+	  },
+  
+	  "components": {
+		"minecraft:icon": "taichi_sword",
+	 "minecraft:creative_category": {
+             "parent": "itemGroup.name.sword"
+         },
+         "minecraft:display_name": {
+             "value": "Taichi Sword"
+         },
+		"minecraft:render_offsets": "tools"
+	  }
+	}
+  }

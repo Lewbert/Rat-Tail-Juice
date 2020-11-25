@@ -1,0 +1,55 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"category": "equipment",
+			"identifier": "rtj:taichi_sword"
+		},
+		"components": {
+			"minecraft:creative_category": {
+                "parent": "itemGroup.name.sword"
+            },
+			"minecraft:max_stack_size": 1,
+			"minecraft:use_duration": 1800,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 300
+			},
+			"minecraft:damageable": {
+                "max_damage": 300,
+                "repair_items": [
+                    "rtj:taichi_sword",
+                    "rtj:wude_alloy"
+                ]
+            },
+			"minecraft:mining_speed": 1.5,
+			"minecraft:damage": 7,
+			"minecraft:enchantable": {
+				"value": 10,
+				"slot": "sword"
+			},
+			"minecraft:icon": {
+                "texture": "taichi_sword"
+            },
+            "minecraft:display_name": {
+                "value": "Taichi Sword"
+            },
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:web",
+						"speed": 15
+					},
+					{
+						"block": "minecraft:bamboo",
+						"speed": 10
+					}
+				]
+			},
+			"minecraft:weapon": {}
+		},
+		"events": {}
+	}
+}

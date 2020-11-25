@@ -1,0 +1,70 @@
+//bridge-file-version: #43
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"category": "equipment",
+			"identifier": "rtj:lightning_whip"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.equipment"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:use_duration": 600,
+			"minecraft:hand_equipped": true,
+			"minecraft:foil": true,
+			"minecraft:durability": {
+				"max_durability": 200,
+				"damage_chance": {
+					"max": 50,
+					"min": 20
+				}
+			},
+			"minecraft:damageable": {
+				"max_damage": 200,
+				"repair_items": [
+					"rtj:lightning_whip",
+					"rtj:rat_tail"
+				]
+			},
+			"minecraft:mining_speed": 2.5,
+			"minecraft:damage": 4,
+			"minecraft:enchantable": {
+				"value": 14,
+				"slot": "bow"
+			},
+			"minecraft:icon": {
+				"texture": "lightning_whip"
+			},
+			"minecraft:display_name": {
+				"value": "Lightning Whip"
+			},
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:weapon": {},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "rtj:shoot_event",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"rtj:shoot_event": {
+				"shoot": {
+					"projectile": "rtj:whip_spark",
+					"launch_power": 1,
+					"angle_offset": 10
+				}
+			},
+			"rtj:lightning_retribution": {
+				"run_command": {
+					"command": [
+						"summon minecraft:lightning_bolt ~ ~ ~"
+					],
+					"target": "other"
+				}
+			}
+		}
+	}
+}

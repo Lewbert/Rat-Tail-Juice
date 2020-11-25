@@ -1,0 +1,14 @@
+{
+	"format_version": "1.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "rtj:mixed_ingot",
+			"category": "Items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "mixed_ingot"
+			}
+		}
+	}
+}
